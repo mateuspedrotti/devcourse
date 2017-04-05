@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: devcourse
+  host: devcourse
+  disk_quota: 1024M
+  services:
+  - devcourse-cloudantNoSQLDB
+  - Language Translator-05
+  - Conversation-hg
